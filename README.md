@@ -16,7 +16,7 @@ or 执行 requirements.txt
 pip install -r requirements.txt
 ```
 
-2. 编译节点
+2. 构建节点
 ```bash
 cd dev_ws
 colcon build
