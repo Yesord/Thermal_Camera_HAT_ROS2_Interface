@@ -35,6 +35,14 @@ cd dev_ws
 source install/setup.bash
 ros2 run thermal_camera_node thermal_camera_publisher
 ```
+
+or 
+
+```bash
+sudo chmod +x ./start_thermal_camera_node.sh
+./start_thermal_camera_node.sh
+```
+
 # 参数配置
 在 [launch](src/thermal_camera_node/launch/thermal_camera_launch.py) 文件中可以更改。
 
